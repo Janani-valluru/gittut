@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anime</title>
+    <style>
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color:aquamarine;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background:blue;
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           /* animation-name: jan;
+            animation-duration: 10s;
+            ainmation-timing -funtion:ease-in-out;
+            animation-delay: 2s;
+            animation-iteration-count: 3;
+            animation-direction: reverse;*/
+            
+            /*animation shorthand*/
+            animation: jan 3s ease-in-out 0.6s 2 alternate;
+        }
+            @keyframes jan {
+                from{
+                    width:300px;
+                    height: 300px;
+                }
+                to{
+                    width:100vw;
+                    height:100vw;
+                }
+                
+            }
+        
+    </style>
+</head>
+<body>
+    <div class ="container">
+        <div class ="box">this is me</div>
+
+    </div
+    ></body>
+</html>
